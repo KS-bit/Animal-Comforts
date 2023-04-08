@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoption Form</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="fas fa-paw">
+    <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="../../index.html" class="logo"> <i class="fas fa-paw"></i>Animal Comforts</a>
+
+    <nav class="navbar">
+        <a href="../index.html">home</a>
+        <a href="../index.html">about</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div id="login-btn"><img src="image/favicon.ico"></div>
+    </div>
+    <form action="" class="login-form">
+        <h3>sign in</h3>
+        <input type="email" name="email" placeholder="enter your email" id="email" class="box">
+        <input type="password" name="password" placeholder="enter your password" id="password" class="box">
+        <input type="submit" value="sign in" class="btn">
+        <div class="links">
+            <a href="#" id="signup-link">sign up</a>
+        </div>
+    </form>
+    
+    <form action="" class="signup-form" style="display: none;">
+        <h3>sign up</h3>
+        <input type="text" name="name" placeholder="enter your name" id="name" class="box">
+        <input type="email" name="email" placeholder="enter your email" id="email" class="box">
+        <input type="password" name="password" placeholder="create a password" id="password" class="box">
+        <input type="password" name="confirm-password" placeholder="confirm password" id="confirm-password" class="box">
+        <input type="submit" value="sign up" class="btn">
+        <div class="links">
+            <a href="#" id="login-link">already have an account? sign in</a>
+        </div>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+
+<!-- Adoption / Relinquishbanner section starts -->
+
+<div class="adopt">
+
+    <div class="image">
+        <img src="image/bg.png" alt="">
+    </div>
+
+    <div class="content">
+        <h3> <span>Adopt </span> a Pet </h3>
+        <p>We recognise that choosing to adopt an animal is a significant decision, and we want to support you in making the best decision.</p>
+    </div>
+
+</div>
+
+
+<!-- Adoption / Relinquishbanner section ends -->
+
+<section class="contact" id="contact">
+
+    <form action="" id="adopttionForm">
+        <h3>Adoption Form</h3>
+
+        <div class="alert">Your message sent</div>
+
+        <input type="text" id="name" placeholder="your name" class="box">
+        <input type="email" id="emailid" placeholder="your email" class="box">
+        <input type="tel" id="number" placeholder="your number" pattern="[0-9]{10}" title="Please enter a 10-digit phone number" class="box">
+        <select name="" id="choice" placeholder="Animal you want to Adopt" class="box">
+            <option value="Animal you want to Adopt">Animal you want to Adopt</option>
+            <option value="Dog">Dog</option>
+            <option value="Cat">Cat</option>
+        </select>
+        <input type="text" id="city" placeholder="City" class="box">
+        <select id="state" class="box">
+            <option value="" selected>Select State</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West Bengal">West Bengal</option>
+        </select> 
+        <button type="submit" class="btn" >Submit </button>>
+    </form>
+
+</section>
+
+<section class="footer">
+
+    <img src="image/top_wave.png" alt="">
+
+
+
+    <div class="credit"> created by <span> Stray Savers</span>  </div>
+
+</section>
+
+
+
+
+<!-- custom js file link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+<script src="js/script.js"></script>
+<script src="js/fi.js"></script>
+
+</body>
+</html>
