@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Comforts</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-paw"></i>Animal Comforts</a>
+
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="#about">about</a>
+        <a href="#services">services</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div id="login-btn"><img src="image/favicon.ico"></div>
+    </div>
+
+    <form action="" id="login-form" class="login-form">
+        <h3>sign in</h3>
+        <input type="email" name="email" placeholder="enter your email" id="login-email" class="box">
+        <input type="password" name="password" placeholder="enter your password" id="login-password" class="box">
+        <input type="submit" value="sign in" class="btn">
+        <div class="links">
+             <a href="#" id="signup-link">sign up</a>
+            <!-- <button id="signup-link"><a>Sign Up</a></button> -->
+        </div> 
+    </form>
+    
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3> <span>hi</span> welcome to Animal comforts </h3>
+    </div>
+
+    <img src="image/bottom_wave.png" class="wave" alt="">
+
+</section>
+
+<!-- home section ends -->
+
+<br><br><br><br><br>
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="image/about_img.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3><span>about</span> Animal Comforts</h3>
+        <p>"Animal Comforts" is a website dedicated to providing a one-stop solution for street animals,
+            including shelter, adoption, helpline, and blogs. Our primary goal is to create a platform where street
+            animals can find love, care, and protection from the harsh realities of the streets.</p>
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<br><br><br><br><br>
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading"> our <span>services</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+           <p><img src="image/adoption.png" width="100" height="100"/></p>>
+            <h3>Adoption or <br>Relinquish</h3>
+            <a href="adoption/index.html" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <p><img src="image/blogging.png" width="100" height="100"/></p>>
+            <h3>Blogs</h3>
+            <a href="blogs/index.html" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <p><img src="image/helpline.png" width="100" height="100"/></p>>
+            <h3>Animal Helpline</h3>
+            <a href="Helpline/index.html" class="btn">read more</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<section class="contact" id="contact">
+
+    <div class="image">
+        <img src="image/contact_img.png" alt="">
+    </div>
+
+    <form action="" id="contactForm">
+        <h3>contact us</h3>
+
+        <div class="alert">Your message sent</div>
+
+        <input type="text" id="name" placeholder="your name" class="box">
+        <input type="email" id="emailid" placeholder="your email" class="box">
+        <input type="tel" id="number" placeholder="your number" pattern="[0-9]{10}" title="Please enter a 10-digit phone number" class="box">
+        <textarea name="" id="msgContent" placeholder="your message" id="" cols="30" rows="10"></textarea>
+        <button type="submit" class="btn" >Submit </button>>
+    </form>
+
+</section>
+
+<section class="footer">
+
+    <img src="image/top_wave.png" alt="">
+
+    <div class="credit"> created by <span> Stray Savers</span>  </div>
+
+</section>
+
+
+
+
+<!-- custom js file link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+<script src="js/script.js"></script>
+<script src="js/fi.js"></script>
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use-->
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-auth.js"></script>
+
+</body>
+</html>
